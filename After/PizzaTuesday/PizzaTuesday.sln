@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{7212F425-4DCA-4B65-BEB6-3793F7BF4A55}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{01D84320-C870-4449-A734-63692EA2A6E9}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "PizzaTuesday", "src\PizzaTuesday\PizzaTuesday.xproj", "{07314638-5FF7-4394-824C-F8786CE574FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6B16A04E-DB30-4547-B0BE-2C1F0FA76922}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JSUnitTests", "JSUnitTests\JSUnitTests.csproj", "{4DAD99B9-4DD2-4C54-8325-9B62B790E9C1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{07314638-5FF7-4394-824C-F8786CE574FB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07314638-5FF7-4394-824C-F8786CE574FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07314638-5FF7-4394-824C-F8786CE574FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07314638-5FF7-4394-824C-F8786CE574FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DAD99B9-4DD2-4C54-8325-9B62B790E9C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DAD99B9-4DD2-4C54-8325-9B62B790E9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DAD99B9-4DD2-4C54-8325-9B62B790E9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DAD99B9-4DD2-4C54-8325-9B62B790E9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{07314638-5FF7-4394-824C-F8786CE574FB} = {7212F425-4DCA-4B65-BEB6-3793F7BF4A55}
+		{4DAD99B9-4DD2-4C54-8325-9B62B790E9C1} = {6B16A04E-DB30-4547-B0BE-2C1F0FA76922}
+	EndGlobalSection
+EndGlobal
